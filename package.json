@@ -1,0 +1,43 @@
+{
+  "name": "tm-commons",
+  "version": "1.0.0",
+  "description": "Common Services for Tendermilk",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "shx rm -rf build",
+    "start": "node build/index.js --color | node bunyan -o short",
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agtranstech/tm-commons.git"
+  },
+  "author": "Gopi Krishna<muktevigk@agtranstech.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agtranstech/tm-commons/issues"
+  },
+  "homepage": "https://api.tendermilk.com",
+  "files": [
+    "build/**/*"
+  ],
+  "devDependencies": {
+    "@types/bunyan": "^1.8.8",
+    "chai": "^4.3.8",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^3.0.3",
+    "shx": "^0.3.4",
+    "sinon": "^15.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "chalk": "^5.3.0"
+  }
+}
