@@ -1,6 +1,6 @@
 {
-  "name": "tm-commons",
-  "version": "1.0.0",
+  "name": "@tendermilk/commons",
+  "version": "0.1.0",
   "description": "Common Services for Tendermilk",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/agtranstech/tm-commons.git"
   },
-  "author": "Gopi Krishna<muktevigk@agtranstech.com>",
+  "author": "Gopi Krishna <muktevigk@agtranstech.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/agtranstech/tm-commons/issues"
